@@ -9,6 +9,7 @@ export default function App({ Component, pageProps }) {
             <Head>
                 <title>Next APP</title>
                 <link rel="icon" href="/favicon.ico" />
+                <meta name="author" content="Tim"></meta>
                 <meta
                     name="description"
                     content="Transparent, decentralized trading bot NFT marketplace!"
