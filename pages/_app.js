@@ -72,10 +72,6 @@ export default function App({ Component, pageProps }) {
                     color="#5bbad5"
                 />
                 <link rel="shortcut icon" href="/favicon.ico" />
-                <link
-                    rel="stylesheet"
-                    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
-                />
             </Head>
             <StateProvider>
                 <MainLayout>
