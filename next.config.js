@@ -1,17 +1,21 @@
-/** @type {import('next').NextConfig} */
+const withPWA = require('next-pwa')({
+    dest: 'public',
+    disable: process.env.NODE_ENV === 'development'
+});
+
 const nextConfig = {
     // output: 'export',
     // trailingSlash: true,
     // reactStrictMode: true,
     compiler: {
-        styledComponents: true,
+        styledComponents: true
     },
     images: {
-        unoptimized: true,
+        unoptimized: true
     },
     eslint: {
-        ignoreDuringBuilds: true,
-    },
+        ignoreDuringBuilds: true
+    }
 };
 
-module.exports = nextConfig;
+module.exports = withPWA(nextConfig);
