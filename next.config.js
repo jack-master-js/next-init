@@ -4,9 +4,10 @@ const withPWA = require('next-pwa')({
 });
 
 const nextConfig = {
-    // output: 'export',
+    // output: 'export',   //URI ends with /, Append index.html page to URI
     // trailingSlash: true,
-    // reactStrictMode: true,
+    // skipTrailingSlashRedirect: true,
+    reactStrictMode: true,
     compiler: {
         styledComponents: true
     },
