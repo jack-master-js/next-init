@@ -1,6 +1,7 @@
 {
     "name": "PWA App",
     "short_name": "App",
+    "description": "A PWA App",
     "icons": [
         {
             "src": "/icons/192x192.png",
